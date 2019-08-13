@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). And on top of CRA, These awesome features are added:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). And on top of CRA 3, These awesome features are added:
 
 - 🎨Prettier & ESLint support for TypeScript 
 - 😍Absolute Imports Support for TypeScript and ESLint

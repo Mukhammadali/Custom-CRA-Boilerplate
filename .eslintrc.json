@@ -28,7 +28,6 @@
           "paths": ["src"]
         }
       },
-      "import/core-modules": ["react-router"]
     },
     "overrides": [
       {

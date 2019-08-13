@@ -8,7 +8,7 @@
     "build": "react-app-rewired build",
     "eject": "react-app-rewired eject",
     "lint": "tsc --noEmit && eslint './src/**/*.{ts,tsx}'",
-    "lint:quiet": "tsc --noEmit && eslint './src/**/*.{ts,tsx}' --quiet --fix",
+    "lint:silent": "tsc --noEmit && eslint './src/**/*.{ts,tsx}' --quiet --fix",
     "lint:fix": "eslint './src/**/*.{ts,tsx}'",
     "test": "react-app-rewired test"
   },

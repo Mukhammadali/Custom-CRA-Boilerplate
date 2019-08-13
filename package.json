@@ -1,22 +1,44 @@
 {
-  "name": "cra_ts",
+  "name": "custom_cra_boilerplate",
   "version": "0.1.0",
   "private": true,
+  "author": "Mukhammad Ali",
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "eject": "react-app-rewired eject",
+    "lint": "tsc --noEmit && eslint './src/**/*.{ts,tsx}'",
+    "lint:quiet": "tsc --noEmit && eslint './src/**/*.{ts,tsx}' --quiet --fix",
+    "lint:fix": "eslint './src/**/*.{ts,tsx}'",
+    "test": "react-app-rewired test"
+  },
   "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-hot-loader": "^4.12.11",
+    "react-scripts": "3.1.0",
+    "typescript": "3.5.3"
+  },
+  "devDependencies": {
     "@types/jest": "24.0.17",
     "@types/node": "12.7.1",
     "@types/react": "16.9.1",
     "@types/react-dom": "16.8.5",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "3.1.0",
-    "typescript": "3.5.3"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "customize-cra": "^0.5.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "^1.18.2",
+    "react-app-rewire-hot-loader-for-customize-cra": "^1.0.1",
+    "react-app-rewired": "^2.1.3"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,0 +1,10 @@
+/build
+/node_modules
+/*.js
+.css
+.svg
+**/*.css
+/src/serviceWorker.ts
+/src/test.js
+
+config-overrides.js
